@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    text-decoration: wavy red underline;
+    letter-spacing: 5px;
+}
+h2{
+    font-weight: 800;
+    text-decoration: double blue overline;
+    font-family: Impact;
+}
+h3{
+    text-decoration: pink line-through;
+}
+a{
+    text-decoration: none;
+}
+p{
+    line-height: 1.5;
+    font-size: 20px;
+}
