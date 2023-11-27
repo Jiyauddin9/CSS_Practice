@@ -1,0 +1,53 @@
+*{
+    text-align: center;
+}
+#mainTopic{
+    color: blue;
+}
+/* h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+/* .heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+h1,h2,h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.para{
+    color: white;
+    background-color: cornflowerblue;
+}
+div button{
+    background-color: purple;
+    color: azure;
+}
+div button:hover{
+    background-color: yellow;
+    color: blue;
+}
+p:nth-of-type(2n+1){
+    color: yellow;
+}
+h1::first-letter{
+    color: red;
+}
+/* div input:checked{
+    color: darkgreen;
+} */
+/* input[type="checkbox"]:checked + label{
+    color: darkgreen;
+} */
+
+#yes:checked + label{
+    color: darkgreen;
+}
+/* #mainContent > 
+div.main > 
+.main >
+ h1 */
