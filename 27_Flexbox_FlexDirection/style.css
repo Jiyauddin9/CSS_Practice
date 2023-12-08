@@ -29,9 +29,11 @@
     /* flex-direction: column-reverse; */
 
 }
+
 h1{
     text-align: center;
 }
+
 #org{
     align-self: flex-start;
     flex-shrink: 1;
