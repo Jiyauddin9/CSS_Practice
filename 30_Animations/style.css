@@ -3,25 +3,29 @@
     width: 300px;
     background-color: pink;
 
-    animation-name: widthAnimate;
+    /* animation-name: widthAnimate; */
     /* animation-name: colorAnimate; */
     /* animation-name: fontAnimation; */
 
-    animation-duration: 3s;
+    /* animation-duration: 3s; */
     /* animation-duration: 2s; */
 
-    animation-timing-function: ease-in;
+    /* animation-timing-function: ease-in;
     animation-delay: 0s;
-    animation-iteration-count: 2;
+    animation-iteration-count: 2; */
     /* animation-iteration-count: 3; */
-    
-    animation-direction: alternate;
+
+    /* animation-direction: alternate; */
     /* animation-direction: normal; */
+
+
+    animation: colorAnimate 4s ease-in 0s 4 alternate;
 }
 
 @keyframes fontAnimation{
     from {
         font-size: 20px;
+        
     }
     to {
         font-size: 40px;
@@ -39,8 +43,26 @@
 @keyframes widthAnimate{
     from {
         width: 10px;
+        background-color: green;
     }
     to {
         width: 400px;
+        background-color: blue;
+        border-radius: 15px;
+    }
+}
+
+@keyframes colorAnimate{
+    0% {
+        background-color: green;
+    }
+    50% {
+        background-color: yellow;
+    }
+    80% {
+        background-color: red;
+    }
+    100% {
+        background-color: blue;
     }
 }
